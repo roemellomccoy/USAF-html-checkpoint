@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./login.css" >
+    <script src="./searchScript.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>GMDB</h1>
+      <nav>
+        <a href="./home.html">
+          <h3>Home</h3>
+        </a>
+        <a href="./login.html">
+          <h3>Login</h3>
+        </a>
+        <form class="searchForm">
+        <input type="search" id="movieSearch" placeholder="Search">
+        <button type="submit" id="movieSearch">Search</button>
+        </form>
+      </nav>
+    </header>
+    <div class="loginSplash">
+      <h1>Login</h1>
+      <form class="loginForm" action="./home.html">
+      <label>
+        Email: <br>
+        <input type="email">
+      </label>
+      <label>
+        Password: <br>
+        <input type="password">
+      </label>
+      <button id="login" type="submit">Login</button>
+      </form>
+    </div>
+  </body>
+</html>

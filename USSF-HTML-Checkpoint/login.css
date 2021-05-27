@@ -1,0 +1,67 @@
+html,body {
+  padding:0;
+  margin:0;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 10%;
+  width: 100%;
+  flex-direction: row;
+  position: static;
+
+}
+
+header h1 {
+  display: flex;
+  position: relative;
+  left: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 5%;
+  width: 80%;
+
+}
+
+header nav a {
+  margin: 2%;
+}
+
+header nav form {
+  position: relative;
+  left: 80%;
+  top: 50%;
+}
+
+.loginSplash{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  position: relative;
+  top: 100px;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.loginForm button{
+  width: 50px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
